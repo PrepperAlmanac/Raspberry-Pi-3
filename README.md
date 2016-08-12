@@ -1,5 +1,4 @@
-# Raspberry-Pi-3
-OS Configurations
+# The Last Can Standing
 
 ---
 
@@ -7,22 +6,34 @@ This project will install and configure everything needed for the Raspberry Pi A
 
 ---
 
+# Requirements
+
+* The Last Can Standing kit
+  * 1 Raspberry Pi 3
+  * 1 200 GB SD Card
+  * 1 Ethernet Cable
+* 1 Desktop or laptop computer
+* 1 Android phone or tablet (optional)
+* An internet connection
+
 # Set up the Raspberry Pi 3
 
-## Connect to the Raspberry Pi 3 via ethernet
+## Install Raspbian
 
-## Configure the Raspberry Pi 3
+## Connect via ethernet
 
-## Connect to the Raspberry Pi 3 wifi hotspot
+## Configure
 
-## Connect to the Raspberry Pi 3 via SSH
+## Connect to the wifi hotspot
 
-# Using the Raspberry Pi 3's services
+## SSH
 
-## Connect to the Raspberry Pi 3 via VNC
+# Services
 
-## Access Calibre
+## VNC
 
-## Access Openstreet Maps
+## Calibre
 
-## Access Wikipedia
+## Open Street Maps
+
+## Wikipedia
