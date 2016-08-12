@@ -19,6 +19,20 @@ The **Last Can Standing Kit** is a highly ruggedized computer inside an .50 cal 
 #### Water Proof
 * Can protect equipment when submerged
 
+### Upgrades (Yet to be designed)
+
+#### The Last HAM Standing kit
+
+* Adds Radio Tx/Rx capibility
+
+#### The Last Can Standing Power kit
+
+* More power
+
+### The Shielded Can
+
+* A shielded ammo can to put misc things inside.
+
 ## Requirements
 
 * The Last Can Standing kit
