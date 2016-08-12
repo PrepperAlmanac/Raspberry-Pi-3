@@ -57,6 +57,7 @@ The **Last Can Standing Kit** is a highly ruggedized computer inside an .50 cal 
 * Not included int the **Last Can Standing Kit**
   * 1 Desktop or laptop computer
   * 1 Android phone or tablet (optional)
+  * 1 E-Book reader
   * An internet connection (once set up this is no longer required)
 
 ## Build the **Last Can Standing Kit**
