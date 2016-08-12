@@ -170,24 +170,29 @@ sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
 ``` bash
 sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
+
 ``` bash
 sudo iptables -A FORWARD -i eth0 -o wlan0 -m state --state RELATED,ESTABLISHED -j ACCEPT
 ```
+
 ``` bash
 sudo iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
 ```
 
-# ...make this happen on reboot by runnig
+# ...make this happen on reboot by running
+
 ``` bash
 sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 ``` bash
 
 # ...and editing again
+
 ``` bash
 sudo nano /etc/network/interfaces
 ```
 
 # ...appending at then end:
+
 ``` bash
 up iptables-restore < /etc/iptables.ipv4.nat
 ```
@@ -210,21 +215,29 @@ iface wlan0 inet static
 ---
 
 # Let's clean everything:
+``` bash
 sudo service hostapd start
 sudo service isc-dhcp-server start
+```
 
 # ...and make sure that we're up and running:
+``` bash
 sudo service hostapd status
 sudo service isc-dhcp-server status
+```
 
 # ...let's configure our daemons to start at boot time:
+
+``` bash
 sudo update-rc.d hostapd enable
 sudo update-rc.d isc-dhcp-server enable
+```
 
 # ...reboot the pi.
-sudo reboot
 
----
+``` bash
+sudo reboot
+```
 
 
 
