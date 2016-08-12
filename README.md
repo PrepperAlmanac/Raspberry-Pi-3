@@ -60,6 +60,10 @@ The **Last Can Standing Kit** is a highly ruggedized computer inside an .50 cal 
   * 1 E-Book reader
   * An internet connection (once set up this is no longer required)
 
+## Order the **Last Can Standing Kit**
+
+Orders are not being taken at this time.
+
 ## Build the **Last Can Standing Kit**
 
 ## Set up the Raspberry Pi 3
