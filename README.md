@@ -11,21 +11,38 @@ This project will install and configure everything needed for the Raspberry Pi A
 
 ---
 
-# Connect to the Raspberry Pi 3 via ethernet
+## Connect to the Raspberry Pi 3 via ethernet
 
 ---
 
-# Configure the Raspberry Pi 3
+## Configure the Raspberry Pi 3
 
 ---
 
-# Connect to the Raspberry Pi 3 via wifi
+## Connect to the Raspberry Pi 3 wifi hotspot
 
 ---
 
-# Access Calibre
+## Connect to the Raspberry Pi 3 via SSH
 
 ---
 
-# Access Openstreet Maps
+# Using the Raspberry Pi 3's services
 
+---
+
+## Connect to the Raspberry Pi 3 via VNC
+
+---
+
+## Access Calibre
+
+---
+
+## Access Openstreet Maps
+
+---
+
+## Access Wikipedia
+
+---
