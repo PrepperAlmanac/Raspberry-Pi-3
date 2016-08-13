@@ -4,6 +4,7 @@ sudo apt-get install tightvncserver
 sudo apt-get install hostapd
 sudo apt-get install isc-dhcp-server
 sudo apt-get install git
+sudo apt-get install calibre
 
 sudo cp ./etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf
 sudo cp ./etc/default/isc-dhcp-server /etc/default/isc-dhcp-server
