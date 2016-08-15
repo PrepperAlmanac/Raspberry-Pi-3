@@ -1,5 +1,10 @@
 #! /bin/bash
 
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install docker
+sudo apt-get install docker.io
 sudo apt-get install tightvncserver
 sudo apt-get install hostapd
 sudo apt-get install isc-dhcp-server
